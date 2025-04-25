@@ -16,4 +16,22 @@ fun main() {
     println("¡Hola, Kotlin!")
     println("Me llamo $nombre")
     println("Hoy es $fecha")
+    mostrarTiposDeDatos()
+}
+
+fun mostrarTiposDeDatos() {
+    val nombre: String = "Cruza"
+    val edad: Int = 16
+    val alturacruza: Double = 1.88
+    val esEstudiante: Boolean = true
+    
+    println("Nombre: $nombre")
+    println("Edad: $edad")
+    println("Altura: $alturacruza")
+    println("Es estudiante: $esEstudiante")
+
+    val base: Double = 5.0
+    val altura: Double = 3.0
+    val area: Double = base * altura
+    println("El área del rectángulo es: $area")
 }
